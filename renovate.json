@@ -1,0 +1,15 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "local>RahulGautamSingh-testing/renovate-config"
+  ],
+"regexManagers": [
+    {
+      "fileMatch": ["some-fille.ts"],
+      "matchStrings": [
+        "default: '(?<depName>ghcr.io/containerbase/sidecar):(?<currentValue>.*)'"
+      ],
+      "datasourceTemplate": "docker"
+    }
+  ]
+}
