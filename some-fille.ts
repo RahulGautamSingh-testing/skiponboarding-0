@@ -3,6 +3,6 @@ const options: any[] = {
     description:
       'Change this value to override the default Renovate Docker sidecar image.',
     type: 'string',
-    default: 'ghcr.io/containerbase/sidecar:8.0.1',
+    default: 'ghcr.io/containerbase/sidecar:8.0.3',
     globalOnly: true,
 }
